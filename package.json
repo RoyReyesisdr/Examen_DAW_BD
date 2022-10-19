@@ -1,0 +1,38 @@
+{
+  "name": "examen_daw_bd",
+  "version": "1.0.0",
+  "description": "Mostrar habilidades y competencias de la materia de DAW y BD",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoyReyesisdr/Examen_DAW_BD.git"
+  },
+  "keywords": [
+    "dinosuario",
+    "seguridad",
+    "usuarios"
+  ],
+  "author": "Rodrigo Reyes Castro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RoyReyesisdr/Examen_DAW_BD/issues"
+  },
+  "homepage": "https://github.com/RoyReyesisdr/Examen_DAW_BD#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "csurf": "^1.11.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mysql2": "^2.3.3"
+  }
+}
